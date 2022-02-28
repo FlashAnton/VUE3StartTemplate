@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+
+	<!--
+	<script src="https://unpkg.com/vue@3"></script>
+	-->
+
+	<script src="vue.global.js"></script>
+
+	<div id="app">
+		{{ message }}
+	</div>
+
+	<script>
+		var myVue = Vue.createApp(
+		{
+			data() 
+			{
+				return { message: '12345-12345' }
+			}
+		}).mount('#app')
+	</script>
+
+</html>
